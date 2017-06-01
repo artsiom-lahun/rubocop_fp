@@ -4,7 +4,3 @@ require "rspec/core/rake_task"
 RSpec::Core::RakeTask.new(:spec)
 
 task :default => :spec
-
-task :install do
-  RubocopFp::ExtendRubocopConfig.new().extend_config
-end
