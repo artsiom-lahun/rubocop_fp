@@ -1,0 +1,29 @@
+AllCops:
+  TargetRubyVersion: 2.3
+
+Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 120
+  Exclude:
+
+AssignmentInCondition:
+  Enabled: false
+
+PercentLiteralDelimiters:
+  PreferredDelimiters:
+    '%i': ()
+    '%w': ()
+
+Lint/AmbiguousBlockAssociation:
+  Enabled: false
+
+Style/FormatString:
+  Enabled: false
