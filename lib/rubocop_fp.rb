@@ -3,12 +3,12 @@ require "rubocop_fp/version"
 module RubocopFp
   class << self
     def configure
-      config = ExtendRubocopConfig.new
+      config = Config.new
       config.extend_config
     end
   end
 
-  class ExtendRubocopConfig
+  class Config
     APPLICATION_CONFIG_PATH = File.join(Rails.root, '.rubocop.yml')
 
     def initialize
